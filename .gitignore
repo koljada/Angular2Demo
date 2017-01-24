@@ -259,3 +259,9 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+
+
+/src/Angular2Demo/app/*.map
+/src/Angular2Demo/app/*.js
+/src/Angular2Demo/wwwroot/libs
+/src/Angular2Demo/wwwroot/app
