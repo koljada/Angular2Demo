@@ -265,3 +265,4 @@ __pycache__/
 /src/Angular2Demo/app/*.js
 /src/Angular2Demo/wwwroot/libs
 /src/Angular2Demo/wwwroot/app
+/src/Angular2Demo/wwwroot/css

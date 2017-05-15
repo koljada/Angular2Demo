@@ -24,6 +24,7 @@ var libs = './wwwroot/libs/';
 gulp.task('default', function () {
     // place code for your default task here
     gulp.src(paths.scripts).pipe(gulp.dest('wwwroot/app'));
+    gulp.src(["node_modules/@angular/material/prebuilt-themes/indigo-pink.css"]).pipe(gulp.dest('wwwroot/css'));
 });
 
 gulp.task('restore:core-js', function () {
